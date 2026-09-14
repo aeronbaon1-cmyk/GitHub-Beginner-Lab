@@ -36,9 +36,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(129, 66);
             label1.Name = "label1";
-            label1.Size = new Size(271, 20);
+            label1.Size = new Size(213, 20);
             label1.TabIndex = 0;
-            label1.Text = "Student Profile — GitHub Beginner Lab.";
+            label1.Text = "Contact Number: 09171234567";
             // 
             // Form1
             // 
