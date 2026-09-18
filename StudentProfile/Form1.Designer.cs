@@ -46,18 +46,20 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(145, 144);
+            label2.Location = new Point(131, 158);
             label2.Name = "label2";
             label2.Size = new Size(259, 20);
             label2.TabIndex = 1;
             label2.Text = "Student Profile - GitHub Beginner Lab";
+            label2.Click += label2_Click;
             // 
             // lblStudentID
             // 
             lblStudentID.AutoSize = true;
-            lblStudentID.Location = new Point(154, 88);
+            lblStudentID.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblStudentID.Location = new Point(131, 94);
             lblStudentID.Name = "lblStudentID";
-            lblStudentID.Size = new Size(166, 20);
+            lblStudentID.Size = new Size(311, 38);
             lblStudentID.TabIndex = 2;
             lblStudentID.Text = "Student ID: 0220412846";
             // 
